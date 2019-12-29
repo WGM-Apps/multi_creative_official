@@ -76,7 +76,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <a href="#" class="d-none d-sm-block btn_1 home_page_btn">hubungi kami</a>
+                        <a href="#order" class="d-none d-sm-block btn_1 home_page_btn">hubungi kami</a>
                     </nav>
                 </div>
             </div>
@@ -98,7 +98,7 @@
                         <div class="banner_text_iner">
                             <h1><?php echo APP_NAME ?></h1>
                             <p><?php echo DESC_NAME ?></p>
-                            <a href="#" class="btn_2">Hubungi Kami</a>
+                            <a href="#order" class="btn_2">Hubungi Kami</a>
                         </div>
                     </div>
                 </div>
@@ -160,7 +160,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="contact-title">Form Order</h2>
+                    <h2 class="contact-title" id="order">Form Order</h2>
                 </div>
                 <div class="col-lg-8">
                     <form class="form-contact contact_form" method="post" id="contactForm"
