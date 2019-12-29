@@ -19,6 +19,7 @@
         <link rel="stylesheet" href="<?php echo base_url('assets/css/magnific-popup.css') ?>">
         <link rel="stylesheet" href="<?php echo base_url('assets/css/slick.css') ?>">
         <link rel="stylesheet" href="<?php echo base_url('assets/css/style.css') ?>">
+        <script src='https://www.google.com/recaptcha/api.js'></script>
     </head>
 
     <body>
@@ -200,6 +201,7 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="g-recaptcha" data-sitekey="6Ld0u8oUAAAAADfKigCgxqtNxv_sgGLe8m9zHxgV"></div>
                         <div class="form-group mt-3">
                             <button onclick="new_order()" class="button button-contactForm btn_1">
                                 Send Message <i class="flaticon-right-arrow"></i>
